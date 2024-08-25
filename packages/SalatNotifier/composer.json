@@ -1,0 +1,24 @@
+{
+    "name": "solayman/salat-notifier",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Solayman\\SalatNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "solaymancse",
+            "email": "mdsolaymancse@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Solayman\\SalatNotifier\\SalatServiceProvider"
+            ]
+        }
+    }
+}
